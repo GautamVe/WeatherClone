@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:none;
+    outline:none;
+    /* font-family: sans-serif; */
+  }
+  body{
+  min-height:100vh;
+  display:flex;
+  justify-content: center;
+   align-items: center;
+
+   background-image: url(sky.jpg);    background-size:cover;
+    background-repeat: no-repeat; 
+    font-family: Arial, Helvetica, sans-serif;   
+  }
+  
+  .container{
+    width:600px;
+    height: min-content;
+    background-image: url(https://myradar.com/static/background-a089d87ba11e1a4c45a8efa960b86092.jpg);
+    border-radius: 20px;
+    box-shadow: 0px 6px 8px 2px; 
+    padding:29px;
+  
+    background-size:cover;
+    background-repeat: no-repeat; 
+  }
+  .search_box{
+    width:400px;
+    height:45px;
+    display: flex;
+    margin-left: 4rem;
+    outline:none;
+    border-radius: 50px;
+    box-shadow: 0px 6px 8px 2px; 
+    justify-content:space-evenly;
+    background: rgb(243, 211, 211);
+  }
+  .search_box input{
+    width:90%;
+    font-size: 25px;
+    text-transform: capitalize;background-color: #98defa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+padding:10px 12px;
+border-radius: 25px;
+  }
+  .search_box  svg{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+
+  .city{
+    font-size: 2.2rem;
+    font-weight: 900;
+    color:rgba(250, 241, 241, 0.767);
+    -webkit-text-stroke: 0.3px black;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+ 
+  .btn_search{
+  display: block;
+  width:100px;
+  margin:auto;
+  margin-top:0.5rem;
+  border-radius: 40px;
+  height:34px;
+  box-shadow: 0px 6px 8px 2px;
+  font-size: 15px;
+  font-weight: 800;
+  } 
+  .btn_search:hover{
+    color:rgb(46, 10, 10);
+    background-color: #8e9696;
+  }
+  .clock{
+    width:15px;
+  }
+  .weather_body {
+width: 60%;
+  }
